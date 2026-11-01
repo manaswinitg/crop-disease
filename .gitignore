@@ -1,0 +1,30 @@
+# Python & Environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+ENV/
+
+# Data & Models cache
+*.pth
+*.pt
+*.h5
+*.keras
+*.joblib
+*.pkl
+!models/.gitkeep
+
+# Outputs & Artifacts
+outputs/*.png
+outputs/*.csv
+outputs/*.json
+outputs/reports/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
